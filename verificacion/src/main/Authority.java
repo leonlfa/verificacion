@@ -4,6 +4,8 @@ import javax.crypto.BadPaddingException;
 
 public interface Authority {
 	
+	//Leon de bami
+	
 	//Recibe la id de la votación, crea las claves y las guarda en BD.
 	public boolean postKey(String id);
 	
